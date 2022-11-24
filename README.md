@@ -12,6 +12,7 @@ Siga as fases corretamente, evite pular etapas.
 	 - [ ] /api/atualizar
 
 Documentação Express: https://expressjs.com/pt-br/
+
 Rotas com o Express: https://expressjs.com/pt-br/starter/basic-routing.html
 
 *Após concluir a atividade, subir o projeto aqui no git*
