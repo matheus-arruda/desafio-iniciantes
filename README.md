@@ -12,4 +12,4 @@ Siga as fases corretamente, evite pular etapas.
 	 - [ ] /api/atualizar
 
 Documentação Express: https://expressjs.com/pt-br/
-Entenda mais sobre rotas com o Express: https://expressjs.com/pt-br/starter/basic-routing.html
+Rotas com o Express: https://expressjs.com/pt-br/starter/basic-routing.html
