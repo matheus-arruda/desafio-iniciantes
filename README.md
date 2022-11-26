@@ -23,14 +23,6 @@ Rotas com o Express: https://expressjs.com/pt-br/starter/basic-routing.html
 - Configure o postgres no seu projeto, ultilizando a biblioteca sequelize. https://sequelize.org/
 - Crie um model com o nome cliente e os campos, Nome, Telefone, E-mail, Cep, Rua, Bairro.
 
-Utilize a seguinte estrutura:
-
--src
-
- -models
-
- -config
-app.js
 
 Observações:
 
