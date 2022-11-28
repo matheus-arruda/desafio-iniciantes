@@ -35,7 +35,7 @@ Divirta-se
 
 Nessa fase vamos começar a ultilizar a orientação de objetos, lembre-se dos conceitos que aprendeu ao criar a conexão do sequelize.
 
-- No caminho** src/routes **crie o arquivo **clientes.route.js**
+- No caminho **src/routes** crie o arquivo **clientes.route.js**
 - Remova as rotas da classe principal e coloque na classe  **clientes.route.js**
 - Importe as rotas para a classe principal.
 
