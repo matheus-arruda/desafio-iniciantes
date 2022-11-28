@@ -41,5 +41,19 @@ Nessa fase vamos começar a ultilizar a orientação de objetos, lembre-se dos c
 
 O objetivo aqui, é que você aprenda importar e exportar classes em JavasCript e a pesquisar um pouco sobre como fazer as tarefas, por esse motivo não vou incluir nenhum tutorial.
 
-**Fase 4**  (Aguardando)
+**Fase 4**
+
+Agora é hora de trabalhar com as operações no banco de dados, as rotas criadas na fase 1, deverão realizar as seguintes ações:
+	 - [x] /api/inserir -> Inserir o cliente na base de dados (Altere a rota para POST)
+	 - [x] /api/editar -> Atualizar um cliente na base de dados (Altere a rota para PUT)
+	 - [x] /api/excluir -> Excluir um cliente da base de dados
+> 	 - [x] /api/atualizar
+
+A rota atualizar está incorreta, altere para `/api/obter`, ao acessar essa rota devera ser listado todos os clientes da base de dados.
+
+**Fase 5**
+
+Agora vamos realizar as validações na API, nesse momento revise seu model de cliente,  valide se ele possui os seguintes campos: ` Nome, Telefone, E-mail, Cep, Rua, Bairro.`
+
+Os campos nome, telefone, e-mail são obrigatórios, ao fim dessa fase seu sistema deverá barrar requisições para inserir e para atualizar o cliente, caso não possua as informações obrigatórias.
 
