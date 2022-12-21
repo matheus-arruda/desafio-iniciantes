@@ -9,6 +9,6 @@ const clienteRoute = require('./src/routes/cliente.route.js');
 
 database.sync(() => console.log(`Banco de dados conectado`));
 
-app.use('/inicio',clienteRoute);
+app.use('/api',clienteRoute);
 
 app.listen(3000);
