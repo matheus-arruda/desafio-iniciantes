@@ -31,7 +31,7 @@ A tabela é criada automaticamente pelo sequelize, através dos models.
 
 Divirta-se
 
-**Fase 3** 
+**Fase 3**  [✅](https://emojipedia.org/check-mark-button/)
 
 Nessa fase vamos começar a ultilizar a orientação de objetos, lembre-se dos conceitos que aprendeu ao criar a conexão do sequelize.
 
@@ -41,7 +41,7 @@ Nessa fase vamos começar a ultilizar a orientação de objetos, lembre-se dos c
 
 O objetivo aqui, é que você aprenda importar e exportar classes em JavasCript e a pesquisar um pouco sobre como fazer as tarefas, por esse motivo não vou incluir nenhum tutorial.
 
-**Fase 4**
+**Fase 4** [✅](https://emojipedia.org/check-mark-button/)
 
 Agora é hora de trabalhar com as operações no banco de dados, as rotas criadas na fase 1, deverão realizar as seguintes ações:
 	 - [x] /api/inserir -> Inserir o cliente na base de dados (Altere a rota para POST)
@@ -51,9 +51,19 @@ Agora é hora de trabalhar com as operações no banco de dados, as rotas criada
 
 A rota atualizar está incorreta, altere para `/api/obter`, ao acessar essa rota devera ser listado todos os clientes da base de dados.
 
-**Fase 5**
+**Fase 5** [✅](https://emojipedia.org/check-mark-button/)
 
 Agora vamos realizar as validações na API, nesse momento revise seu model de cliente,  valide se ele possui os seguintes campos: ` Nome, Telefone, E-mail, Cep, Rua, Bairro.`
 
 Os campos nome, telefone, e-mail são obrigatórios, ao fim dessa fase seu sistema deverá barrar requisições para inserir e para atualizar o cliente, caso não possua as informações obrigatórias.
+
+**Fase 6**
+
+- Criar uma tabela de endereços dos clientes, um cliente pode ter vários endereços.
+- Atualizar a rota de obter clientes, o retorno deve vim com todos os endereços cadastrados do cliente.
+- Ao salvar/atualizar/excluir, as operações devem ser refletidas na tabela de endereços.
+
+Ex:
+
+Apagou cliente, os endereços relacionados a ele devem ser apagados. Atualizou cliente os endereços devem ser atualizados..
 
